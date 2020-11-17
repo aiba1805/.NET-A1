@@ -1,0 +1,13 @@
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.exe
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.runtimeconfig.json
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.runtimeconfig.dev.json
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloConsole.pdb
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.pdb
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.genruntimeconfig.cache

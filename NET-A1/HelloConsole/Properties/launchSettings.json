@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "Aibek"
+    }
+  }
+}
