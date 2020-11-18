@@ -1,0 +1,9 @@
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\bin\Debug\netstandard2.0\HelloBL.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\bin\Debug\netstandard2.0\HelloBL.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\bin\Debug\netstandard2.0\HelloBL.pdb
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloBL\obj\Debug\netstandard2.0\HelloBL.pdb

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "HelloBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HelloBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloBL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HelloBL/1.0.0": {
+      "type": "project",
+      "path": "../HelloBL/HelloBL.csproj",
+      "msbuildProject": "../HelloBL/HelloBL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "HelloBL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Aibek_Shulembekov\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Aibek_Shulembekov\\source\\repos\\aiba1805\\.NET-A1\\NET-A1\\HelloBL\\HelloBL.csproj": {
+              "projectPath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\aiba1805\\.NET-A1\\NET-A1\\HelloBL\\HelloBL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

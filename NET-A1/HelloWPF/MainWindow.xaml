@@ -26,8 +26,8 @@
         <Button x:Name="GoButton"  Width="100" Height="30" 
                  Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left" Content="Go"
                 FontSize="20" Click="GoButton_Click"/>
-        <Label x:Name="HelloLabel" Height="40" 
-               Grid.Column="1" Grid.Row="2" FontSize="22"/>
+        <Label x:Name="HelloLabel" Height="40"
+               Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" FontSize="22"/>
 
     </Grid>
 </Window>

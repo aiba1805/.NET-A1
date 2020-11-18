@@ -11,3 +11,6 @@ C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.dll
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.pdb
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.genruntimeconfig.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloBL.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\bin\Debug\netcoreapp3.1\HelloBL.pdb
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloConsole\obj\Debug\netcoreapp3.1\HelloConsole.csproj.CopyComplete

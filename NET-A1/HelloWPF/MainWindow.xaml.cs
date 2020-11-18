@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloBL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,15 +21,16 @@ namespace HelloWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly Hello _hello = new Hello();
         public MainWindow()
         {
             InitializeComponent();
+            HelloLabel.HorizontalContentAlignment = HorizontalAlignment.Center;
         }
 
         private void GoButton_Click(object sender, RoutedEventArgs e)
         {
-            HelloLabel.Content = string.IsNullOrEmpty(NameTextBox.Text) ? 
-                "Please, write your name" : $"Hello, {NameTextBox.Text}!";
+            HelloLabel.Content = _hello.GetMessage(NameTextBox.Text);
         }
     }
 }

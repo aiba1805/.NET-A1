@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloBL;
+using System;
 
 namespace HelloConsole
 {
@@ -6,7 +7,8 @@ namespace HelloConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello {args[0]}!");
+            Hello hello = new Hello();
+            Console.WriteLine(hello.GetMessage(args[0]));
         }
     }
 }

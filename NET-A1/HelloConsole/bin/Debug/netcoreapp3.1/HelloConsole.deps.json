@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "HelloConsole/1.0.0": {
+        "dependencies": {
+          "HelloBL": "1.0.0"
+        },
         "runtime": {
           "HelloConsole.dll": {}
+        }
+      },
+      "HelloBL/1.0.0": {
+        "runtime": {
+          "HelloBL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "HelloConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelloBL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

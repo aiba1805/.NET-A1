@@ -17,3 +17,6 @@ C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\obj\Deb
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\obj\Debug\netcoreapp3.1\HelloWPF.dll
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\obj\Debug\netcoreapp3.1\HelloWPF.pdb
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\obj\Debug\netcoreapp3.1\HelloWPF.genruntimeconfig.cache
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\bin\Debug\netcoreapp3.1\HelloBL.dll
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\bin\Debug\netcoreapp3.1\HelloBL.pdb
+C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\HelloWPF\obj\Debug\netcoreapp3.1\HelloWPF.csproj.CopyComplete
