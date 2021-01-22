@@ -21,13 +21,11 @@ namespace LinqTask1
         )
         {
             if (customers == null || suppliers == null) throw new ArgumentNullException();
-            var result = new List<(Customer, IEnumerable<Supplier>)>();
-            customers.ToList().ForEach((customer) =>
-            {
-                result.Add((customer,suppliers.Where(supplier => string.Equals(customer.Country, supplier.Country, StringComparison.OrdinalIgnoreCase)
-                        && string.Equals(customer.City, supplier.City, StringComparison.OrdinalIgnoreCase))));
-            });
-            return result;
+            return customers.Select(customer => (
+                customer, 
+                suppliers.Where(supplier => string.Equals(customer.Country, supplier.Country, StringComparison.OrdinalIgnoreCase)
+                        && string.Equals(customer.City, supplier.City, StringComparison.OrdinalIgnoreCase))
+            ));
         }
 
         public static IEnumerable<(Customer customer, IEnumerable<Supplier> suppliers)> Linq2UsingGroup(
@@ -68,24 +66,22 @@ namespace LinqTask1
         {
             if (customers == null) throw new ArgumentNullException();
 
-            return from item in (from c in customers
-                         where c.Orders.Length > 0
-                         select new
-                         {
-                             Customer = c,
-                             Order = c.Orders
-                            .OrderBy(o => o.OrderDate)
-                            .FirstOrDefault()
-                         })
-                         orderby item.Order.OrderDate.Year, item.Order.OrderDate.Month, item.Customer.Orders.Sum(x=>x.Total), item.Customer.CustomerID
-                         select (item.Customer, item.Order.OrderDate);
+            return customers
+                .Where(c => c.Orders.Length > 0)
+                .Select(c => (c, c.Orders
+                .OrderBy(o => o.OrderDate)
+                .First().OrderDate))
+                .OrderBy(x=>x.OrderDate.Year)
+                .ThenBy(x=>x.OrderDate.Month)
+                .ThenByDescending(x=>x.c.Orders.Sum(y=>y.Total))
+                .ThenBy(x=>x.c.CustomerID);
         }
 
         public static IEnumerable<Customer> Linq6(IEnumerable<Customer> customers)
         {
             if (customers == null) throw new ArgumentNullException();
 
-            return customers.Where(c => c.PostalCode.Any(x => char.ToLower(x) >= 'a' && char.ToLower(x) <= 'z')
+            return customers.Where(c => !c.PostalCode.All(x => char.ToLower(x) >= '0' && char.ToLower(x) <= '9')
                 || string.IsNullOrEmpty(c.Region)
                 || !c.Phone.Contains('('));
         }
@@ -124,12 +120,12 @@ namespace LinqTask1
         )
         {
             if (products == null) throw new ArgumentNullException();
-            return new List<(decimal category, IEnumerable<Product> products)>
-            {
-                (cheap, products.Where(x => x.UnitPrice > 0 && x.UnitPrice <= cheap)),
-                (middle, products.Where(x => x.UnitPrice > cheap && x.UnitPrice <= middle)),
-                (expensive, products.Where(x => x.UnitPrice > middle && x.UnitPrice <= expensive))
-            };
+
+            return products.GroupBy(p => p.UnitPrice <= cheap ? cheap : p.UnitPrice <= middle ? middle : expensive)
+                .Select(_ =>( 
+                    _.Key,
+                    _.AsEnumerable()
+                ));
         }
 
         public static IEnumerable<(string city, int averageIncome, int averageIntensity)> Linq9(
