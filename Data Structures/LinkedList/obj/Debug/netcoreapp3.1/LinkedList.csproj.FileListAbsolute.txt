@@ -1,0 +1,13 @@
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Data Structures\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.genruntimeconfig.cache
