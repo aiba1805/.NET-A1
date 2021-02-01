@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\FileExplorer\\FileExplorer.csproj",
+      "projectUniqueName": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\FileExplorer\\FileExplorer.csproj",
       "projectName": "FileExplorer",
-      "projectPath": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\FileExplorer\\FileExplorer.csproj",
+      "projectPath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\FileExplorer\\FileExplorer.csproj",
       "packagesPath": "C:\\Users\\Aibek_Shulembekov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\FileExplorer\\obj\\",
+      "outputPath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\FileExplorer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aibek_Shulembekov\\AppData\\Roaming\\NuGet\\NuGet.Config",

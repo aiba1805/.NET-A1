@@ -1,0 +1,12 @@
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.exe
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.runtimeconfig.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.runtimeconfig.dev.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\bin\Debug\netcoreapp3.1\CalcStats.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\CalcStats\obj\Debug\netcoreapp3.1\CalcStats.genruntimeconfig.cache

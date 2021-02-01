@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\HelloBL\\HelloBL.csproj",
+      "projectUniqueName": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\HelloBL\\HelloBL.csproj",
       "projectName": "HelloBL",
-      "projectPath": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\HelloBL\\HelloBL.csproj",
+      "projectPath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\HelloBL\\HelloBL.csproj",
       "packagesPath": "C:\\Users\\Aibek_Shulembekov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aibek_Shulembekov\\Source\\Repos\\.NET-A1\\HelloBL\\obj\\",
+      "outputPath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\HelloBL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aibek_Shulembekov\\AppData\\Roaming\\NuGet\\NuGet.Config",

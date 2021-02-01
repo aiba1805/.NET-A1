@@ -7,3 +7,12 @@ C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\Task1\obj\Debug\
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\Task1\obj\Debug\netcoreapp3.1\Task1.dll
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\Task1\obj\Debug\netcoreapp3.1\Task1.pdb
 C:\Users\Aibek_Shulembekov\source\repos\aiba1805\.NET-A1\NET-A1\Task1\obj\Debug\netcoreapp3.1\Task1.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\bin\Debug\netcoreapp3.1\Task1.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\bin\Debug\netcoreapp3.1\Task1.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\bin\Debug\netcoreapp3.1\Task1.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Debugging fundamentals\Task1\obj\Debug\netcoreapp3.1\Task1.pdb

@@ -1,0 +1,9 @@
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\bin\Debug\netcoreapp3.1\Task3.deps.json
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\bin\Debug\netcoreapp3.1\Task3.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\bin\Debug\netcoreapp3.1\Task3.pdb
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.csprojAssemblyReference.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfoInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfo.cs
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.dll
+C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\ExceptionHandling\Task3\obj\Debug\netcoreapp3.1\Task3.pdb

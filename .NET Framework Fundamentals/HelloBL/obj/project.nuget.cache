@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fVplKjL8jiyM5Cf5BqCgAzRw9WcjDqd13NOFg8QZe+jn+osHlq2dISwJlfUIowmNrrZj6JVIe3fyPCqIJgqR/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aibek_Shulembekov\\source\\repos\\.NET-A1\\HelloBL\\HelloBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aibek_Shulembekov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Aibek_Shulembekov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
