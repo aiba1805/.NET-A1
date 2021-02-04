@@ -1,0 +1,223 @@
+2021-02-04 14:17:40,546 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-02-04 14:17:40,562 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-02-04 14:17:40,563 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Logging\BrainstormSessions
+2021-02-04 14:17:40,576 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 14:17:40,596 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:40,612 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 14:17:40,645 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 3.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=InMemoryDb 
+2021-02-04 14:17:40,662 [4] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 2:17:40 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 14:17:40,673 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 14:17:40,808 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 134.7511ms.
+2021-02-04 14:17:40,810 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 184.7261ms
+2021-02-04 14:17:40,813 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:40,817 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 241.9566ms 200 text/html; charset=utf-8
+2021-02-04 14:17:42,295 [12] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/ application/x-www-form-urlencoded 33
+2021-02-04 14:17:42,297 [12] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:42,310 [12] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(NewSessionModel) on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 14:17:42,341 [12] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 3.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=InMemoryDb 
+2021-02-04 14:17:42,343 [12] INFO Microsoft.EntityFrameworkCore.Update - Saved 1 entities to in-memory store.
+2021-02-04 14:17:42,344 [12] DEBUG BrainstormSessions.Controllers.HomeController - {DateTime.Now} - SesionRepository AddAsync method executed
+2021-02-04 14:17:42,345 [12] INFO Microsoft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /.
+2021-02-04 14:17:42,348 [12] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 35.0841ms
+2021-02-04 14:17:42,349 [12] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:42,353 [12] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.2289ms 302 
+2021-02-04 14:17:42,355 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 14:17:42,356 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:42,357 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 14:17:42,359 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 3.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=InMemoryDb 
+2021-02-04 14:17:42,360 [4] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 2:17:42 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 14:17:42,361 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 14:17:42,366 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4.7764ms.
+2021-02-04 14:17:42,367 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 8.7916ms
+2021-02-04 14:17:42,369 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:42,370 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5773ms 200 text/html; charset=utf-8
+2021-02-04 14:17:43,310 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/Session/Index/2  
+2021-02-04 14:17:43,313 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 14:17:43,318 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller BrainstormSessions.Controllers.SessionController (BrainstormSessions).
+2021-02-04 14:17:43,320 [4] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 2:17:43 PM - SessionController Index method: id parameter is 2
+2021-02-04 14:17:43,322 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 3.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=InMemoryDb 
+2021-02-04 14:17:43,342 [4] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 2:17:43 PM - SessionRepository GetByIdAsync method return value is BrainstormSessions.Core.Model.BrainstormSession
+2021-02-04 14:17:43,344 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 14:17:43,352 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 8.3655ms.
+2021-02-04 14:17:43,353 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions) in 33.7638ms
+2021-02-04 14:17:43,355 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 14:17:43,356 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.2862ms 200 text/html; charset=utf-8
+2021-02-04 14:17:43,418 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/api/ideas/forsession/2  
+2021-02-04 14:17:43,421 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0705ms 404 
+2021-02-04 14:17:46,860 [7] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/api/ideas/create application/json 49
+2021-02-04 14:17:46,863 [7] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.075ms 404 
+2021-02-04 14:17:49,394 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/api/ideas/create application/json 54
+2021-02-04 14:17:49,397 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5666ms 404 
+2021-02-04 14:17:50,374 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 14:17:50,376 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:50,378 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 14:17:50,380 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 3.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=InMemoryDb 
+2021-02-04 14:17:50,382 [4] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 2:17:50 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 14:17:50,383 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 14:17:50,386 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2.8464ms.
+2021-02-04 14:17:50,387 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 7.789ms
+2021-02-04 14:17:50,389 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 14:17:50,390 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.2988ms 200 text/html; charset=utf-8
+2021-02-04 17:55:22,365 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-02-04 17:55:22,389 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-02-04 17:55:22,391 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Aibek_Shulembekov\source\repos\.NET-A1\Logging\BrainstormSessions
+2021-02-04 17:55:22,416 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 17:55:22,445 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:22,511 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:23,105 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:23,619 [8] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[DateCreated], [b].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM [BrainstormSessions] AS [b]
+LEFT JOIN [Idea] AS [i] ON [b].[Id] = [i].[BrainstormSessionId]
+ORDER BY [b].[Id], [i].[Id]
+2021-02-04 17:55:23,693 [8] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 5:55:23 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 17:55:23,708 [8] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:23,843 [8] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 135.7961ms.
+2021-02-04 17:55:23,846 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 1333.0698ms
+2021-02-04 17:55:23,849 [8] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:23,858 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1445.3739ms 200 text/html; charset=utf-8
+2021-02-04 17:55:28,564 [9] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/Session/Index/9  
+2021-02-04 17:55:28,569 [9] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:28,582 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller BrainstormSessions.Controllers.SessionController (BrainstormSessions).
+2021-02-04 17:55:28,592 [9] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:28 PM - SessionController Index method: id parameter is 9
+2021-02-04 17:55:28,614 [9] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:28,663 [7] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[DateCreated], [t].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[DateCreated], [b].[Name]
+    FROM [BrainstormSessions] AS [b]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Idea] AS [i] ON [t].[Id] = [i].[BrainstormSessionId]
+ORDER BY [t].[Id], [i].[Id]
+2021-02-04 17:55:28,665 [7] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:28 PM - SessionRepository GetByIdAsync method return value is BrainstormSessions.Core.Model.BrainstormSession
+2021-02-04 17:55:28,667 [7] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:28,676 [7] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 8.4362ms.
+2021-02-04 17:55:28,677 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions) in 93.2669ms
+2021-02-04 17:55:28,678 [7] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:28,680 [7] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.4409ms 200 text/html; charset=utf-8
+2021-02-04 17:55:28,746 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/api/ideas/forsession/9  
+2021-02-04 17:55:28,752 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5811ms 404 
+2021-02-04 17:55:30,194 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/Session/Index/9  
+2021-02-04 17:55:30,196 [8] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:30,197 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller BrainstormSessions.Controllers.SessionController (BrainstormSessions).
+2021-02-04 17:55:30,199 [8] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:30 PM - SessionController Index method: id parameter is 9
+2021-02-04 17:55:30,207 [8] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:30,212 [4] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[DateCreated], [t].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[DateCreated], [b].[Name]
+    FROM [BrainstormSessions] AS [b]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Idea] AS [i] ON [t].[Id] = [i].[BrainstormSessionId]
+ORDER BY [t].[Id], [i].[Id]
+2021-02-04 17:55:30,214 [4] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:30 PM - SessionRepository GetByIdAsync method return value is BrainstormSessions.Core.Model.BrainstormSession
+2021-02-04 17:55:30,215 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:30,218 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3.095ms.
+2021-02-04 17:55:30,220 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions) in 21.133ms
+2021-02-04 17:55:30,222 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:30,223 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.0175ms 200 text/html; charset=utf-8
+2021-02-04 17:55:30,272 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/api/ideas/forsession/9  
+2021-02-04 17:55:30,274 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1641ms 404 
+2021-02-04 17:55:33,178 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/ application/x-www-form-urlencoded 32
+2021-02-04 17:55:33,180 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:33,187 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(NewSessionModel) on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:33,205 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:33,300 [7] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BrainstormSessions] ([DateCreated], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [BrainstormSessions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-02-04 17:55:33,332 [7] DEBUG BrainstormSessions.Controllers.HomeController - {DateTime.Now} - SesionRepository AddAsync method executed
+2021-02-04 17:55:33,334 [7] INFO Microsoft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /.
+2021-02-04 17:55:33,336 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 147.5607ms
+2021-02-04 17:55:33,337 [7] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:33,339 [7] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.0308ms 302 
+2021-02-04 17:55:33,341 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 17:55:33,342 [8] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:33,344 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:33,345 [8] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:33,348 [4] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[DateCreated], [b].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM [BrainstormSessions] AS [b]
+LEFT JOIN [Idea] AS [i] ON [b].[Id] = [i].[BrainstormSessionId]
+ORDER BY [b].[Id], [i].[Id]
+2021-02-04 17:55:33,349 [4] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 5:55:33 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 17:55:33,350 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:33,353 [4] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2.3333ms.
+2021-02-04 17:55:33,354 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 8.9901ms
+2021-02-04 17:55:33,355 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:33,357 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.6375ms 200 text/html; charset=utf-8
+2021-02-04 17:55:34,276 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/ application/x-www-form-urlencoded 32
+2021-02-04 17:55:34,277 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:34,279 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(NewSessionModel) on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:34,283 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:34,288 [7] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BrainstormSessions] ([DateCreated], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [BrainstormSessions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-02-04 17:55:34,290 [7] DEBUG BrainstormSessions.Controllers.HomeController - {DateTime.Now} - SesionRepository AddAsync method executed
+2021-02-04 17:55:34,291 [7] INFO Microsoft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /.
+2021-02-04 17:55:34,293 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 12.6532ms
+2021-02-04 17:55:34,294 [7] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:34,296 [7] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.98ms 302 
+2021-02-04 17:55:34,300 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 17:55:34,302 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:34,303 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:34,305 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:34,308 [9] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[DateCreated], [b].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM [BrainstormSessions] AS [b]
+LEFT JOIN [Idea] AS [i] ON [b].[Id] = [i].[BrainstormSessionId]
+ORDER BY [b].[Id], [i].[Id]
+2021-02-04 17:55:34,308 [9] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 5:55:34 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 17:55:34,310 [9] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:34,312 [9] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2.59ms.
+2021-02-04 17:55:34,314 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 9.4347ms
+2021-02-04 17:55:34,316 [9] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:34,317 [9] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.5829ms 200 text/html; charset=utf-8
+2021-02-04 17:55:35,251 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/Session/Index/11  
+2021-02-04 17:55:35,253 [4] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:35,255 [4] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller BrainstormSessions.Controllers.SessionController (BrainstormSessions).
+2021-02-04 17:55:35,257 [4] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:35 PM - SessionController Index method: id parameter is 11
+2021-02-04 17:55:35,259 [4] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:35,264 [14] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[DateCreated], [t].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[DateCreated], [b].[Name]
+    FROM [BrainstormSessions] AS [b]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Idea] AS [i] ON [t].[Id] = [i].[BrainstormSessionId]
+ORDER BY [t].[Id], [i].[Id]
+2021-02-04 17:55:35,266 [14] DEBUG BrainstormSessions.Controllers.SessionController - 2/4/2021 5:55:35 PM - SessionRepository GetByIdAsync method return value is BrainstormSessions.Core.Model.BrainstormSession
+2021-02-04 17:55:35,267 [14] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:35,272 [14] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4.2504ms.
+2021-02-04 17:55:35,273 [14] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions) in 16.6054ms
+2021-02-04 17:55:35,275 [14] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.SessionController.Index (BrainstormSessions)'
+2021-02-04 17:55:35,277 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.0237ms 200 text/html; charset=utf-8
+2021-02-04 17:55:35,334 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/api/ideas/forsession/11  
+2021-02-04 17:55:35,337 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5269ms 404 
+2021-02-04 17:55:37,143 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:65526/api/ideas/create application/json 53
+2021-02-04 17:55:37,145 [4] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2853ms 404 
+2021-02-04 17:55:38,267 [8] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:65526/  
+2021-02-04 17:55:38,269 [8] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:38,271 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BrainstormSessions.Controllers.HomeController (BrainstormSessions).
+2021-02-04 17:55:38,273 [8] INFO Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-04 17:55:38,278 [14] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[DateCreated], [b].[Name], [i].[Id], [i].[BrainstormSessionId], [i].[DateCreated], [i].[Description], [i].[Name]
+FROM [BrainstormSessions] AS [b]
+LEFT JOIN [Idea] AS [i] ON [b].[Id] = [i].[BrainstormSessionId]
+ORDER BY [b].[Id], [i].[Id]
+2021-02-04 17:55:38,282 [14] INFO BrainstormSessions.Controllers.HomeController - 2/4/2021 5:55:38 PM - ListAsync Method returned System.Collections.Generic.List`1[BrainstormSessions.Core.Model.BrainstormSession]
+2021-02-04 17:55:38,285 [14] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2021-02-04 17:55:38,289 [14] INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4.7606ms.
+2021-02-04 17:55:38,290 [14] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions) in 18.4224ms
+2021-02-04 17:55:38,292 [14] INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BrainstormSessions.Controllers.HomeController.Index (BrainstormSessions)'
+2021-02-04 17:55:38,294 [14] INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.7168ms 200 text/html; charset=utf-8
