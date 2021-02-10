@@ -8,26 +8,17 @@ namespace TechTask
     public class LinkedList<T> : IEnumerable<T>, IHybridFlowProcessor<T>
     {
         Node<T> head;
-        Node<T> tail;
 
         public T this[int index]
         {
             get
             {
-                var current = head;
-                for (var i = 0; i < index && current.Next != null; i++)
-                {
-                    current = current.Next;
-                }
+                var current = GetCurrent(index);
                 return current.Data;
             }
             set
             {
-                var current = head;
-                for (var i = 0; i < index && current.Next != null; i++)
-                {
-                    current = current.Next;
-                }
+                var current = GetCurrent(index);
                 current.Data = value;
             }
         }
@@ -39,26 +30,22 @@ namespace TechTask
 
         public void Add(T data)
         {
-            var node = new Node<T>(data);
-
-            if (head == null)
-                head = node;
-            else
-            {
-                tail.Next = node;
-                node.Previous = tail;
-            }
-            tail = node;
-            Length++;
+            AddAt(Length + 1, data);
         }
 
-        public void AddAt(int index, T data)
+        private Node<T> GetCurrent(int index)
         {
             var current = head;
             for (var i = 0; i < index && current.Next != null; i++)
             {
                 current = current.Next;
             }
+            return current;
+        }
+
+        public void AddAt(int index, T data)
+        {
+            var current = GetCurrent(index);
 
             var node = new Node<T>(data);
             var prev = current.Previous;
@@ -74,30 +61,18 @@ namespace TechTask
 
         public void Remove()
         {
-            var current = tail.Previous;
-            current.Next = null;
-            tail = current;
-            Length--;
+            RemoveAt(Length);
         }
 
         public void RemoveAt(int index)
         {
-            var current = head;
-
-            for (var i = 0; i < index && current.Next != null; i++)
-            {
-                current = current.Next;
-            }
+            var current = GetCurrent(index);
 
             if (current == null) throw new ArgumentException("Index out of range");
 
             if (current.Next != null)
             {
                 current.Next.Previous = current.Previous;
-            }
-            else
-            {
-                tail = current.Previous;
             }
 
             if (current.Previous != null)
@@ -110,12 +85,12 @@ namespace TechTask
             }
             Length--;
         }
-        public ulong Length { get; private set; }
+        private int Length { get; set; }
         public bool IsEmpty { get { return Length == 0; } }
 
         public T Last()
         {
-            return tail.Data;
+            return GetCurrent(Length).Data;
         }
 
         private sealed class __ListEnumerator<T> : IEnumerator<T>
@@ -192,21 +167,12 @@ namespace TechTask
 
         public void Enqueue(T item)
         {
-            var temp = head.Next;
-            var curr = new Node<T>(item);
-            curr.Next = head;
-            temp.Previous = head;
-            head = curr;
-            Length++;
+            AddAt(1, item);
         }
 
         public T Dequeue()
         {
-            var temp = head.Next;
-            var curr = head;
-            temp.Previous = null;
-            head = temp;
-            return curr.Data;
+            return Pop();
         }
     }
 }
