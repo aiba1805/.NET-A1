@@ -168,7 +168,7 @@ namespace TechTask
 
         public void Enqueue(T item)
         {
-            AddAt(1, item);
+            AddAt(0, item);
         }
 
         public T Dequeue()
