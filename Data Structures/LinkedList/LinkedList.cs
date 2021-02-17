@@ -30,7 +30,8 @@ namespace TechTask
 
         public void Add(T data)
         {
-            AddAt(Length + 1, data);
+            if (head == null) AddAt(Length, data);
+            else AddAt(Length + 1, data);
         }
 
         private Node<T> GetCurrent(int index)
@@ -173,6 +174,17 @@ namespace TechTask
         public T Dequeue()
         {
             return Pop();
+        }
+
+        public int Size()
+        {
+            int i;
+            var current = head;
+            for (i = 0; current.Next != null; i++)
+            {
+                current = current.Next;
+            }
+            return i;
         }
     }
 }
